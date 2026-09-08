@@ -1,0 +1,100 @@
+#!/usr/bin/env dotslash
+
+// DataDog pup CLI v1.18.2
+// https://github.com/DataDog/pup/releases/tag/v1.18.2
+
+{
+  "name": "pup",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 28377076,
+      "hash": "blake3",
+      "digest": "5efec697ddfa4355cc0e599e60eb83cf440735aec601b10a81b8842af2c04bba",
+      "format": "tar.gz",
+      "path": "pup",
+      "providers": [
+        {
+          "url": "https://github.com/DataDog/pup/releases/download/v1.18.2/pup_1.18.2_Linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "DataDog/pup",
+          "tag": "v1.18.2",
+          "name": "pup_1.18.2_Linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 29362923,
+      "hash": "blake3",
+      "digest": "f54311e14b27fcd7bc42015f9e1ae4d61e32b7cf8c74bbb1ffb9f66e5abfe730",
+      "format": "tar.gz",
+      "path": "pup",
+      "providers": [
+        {
+          "url": "https://github.com/DataDog/pup/releases/download/v1.18.2/pup_1.18.2_Linux_x86_64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "DataDog/pup",
+          "tag": "v1.18.2",
+          "name": "pup_1.18.2_Linux_x86_64.tar.gz"
+        }
+      ]
+    },
+    "macos-aarch64": {
+      "size": 26323993,
+      "hash": "blake3",
+      "digest": "a8bbfe52609d8482f1a555de8797cde4634ec7841652bbcaaa5dbffdc9093ea2",
+      "format": "tar.gz",
+      "path": "pup",
+      "providers": [
+        {
+          "url": "https://github.com/DataDog/pup/releases/download/v1.18.2/pup_1.18.2_Darwin_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "DataDog/pup",
+          "tag": "v1.18.2",
+          "name": "pup_1.18.2_Darwin_arm64.tar.gz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 26843436,
+      "hash": "blake3",
+      "digest": "c21a72262eb40895e1a05afab1cf5634c2ef752066337e8ed75bbe04de8c4cb4",
+      "format": "tar.gz",
+      "path": "pup",
+      "providers": [
+        {
+          "url": "https://github.com/DataDog/pup/releases/download/v1.18.2/pup_1.18.2_Darwin_x86_64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "DataDog/pup",
+          "tag": "v1.18.2",
+          "name": "pup_1.18.2_Darwin_x86_64.tar.gz"
+        }
+      ]
+    },
+    "windows-x86_64": {
+      "size": 25360620,
+      "hash": "blake3",
+      "digest": "76443d659241accf6570f429be1c316db088ab20040e92165457bab277e7e5d7",
+      "format": "zip",
+      "path": "pup.exe",
+      "providers": [
+        {
+          "url": "https://github.com/DataDog/pup/releases/download/v1.18.2/pup_1.18.2_Windows_x86_64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "DataDog/pup",
+          "tag": "v1.18.2",
+          "name": "pup_1.18.2_Windows_x86_64.zip"
+        }
+      ]
+    }
+  }
+}
