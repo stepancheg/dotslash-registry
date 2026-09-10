@@ -13,3 +13,8 @@ human teammate without that disclosure—whether in GitHub, Slack, or anywhere
 else work on this registry shows up. A short, explicit note (for example in
 the PR body, a comment footer, or the commit trailer) is enough; omit it only
 when the surface already makes the AI origin obvious and non-impersonating.
+
+## Squash PR commits
+
+Squash a pull request to a single commit unless each commit is a logically
+separate change.
