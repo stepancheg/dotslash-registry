@@ -1,0 +1,73 @@
+#!/usr/bin/env dotslash
+
+// Google Cloud CLI 583.0.0 git-credential-gcloud.sh
+// https://cloud.google.com/sdk/docs/downloads-versioned-archives
+// Bundled Python is only published for linux-x86_64 and
+// windows-x86_64. Other platforms need Python 3.10-3.14 on PATH.
+// No Windows: the .cmd helper just calls `gcloud.cmd` from PATH.
+
+{
+  "name": "git-credential-gcloud",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 52274098,
+      "hash": "blake3",
+      "digest": "e81804c1cb8ce3fa406fc3687e5fc6d59acce4944d7d378771dc6a895d675df5",
+      "format": "tar.gz",
+      "path": "google-cloud-sdk/bin/git-credential-gcloud.sh",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-583.0.0-linux-arm.tar.gz"
+        },
+        {
+          "url": "https://storage.googleapis.com/cloud-sdk-release/google-cloud-cli-583.0.0-linux-arm.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 86740178,
+      "hash": "blake3",
+      "digest": "dfcfa6a55d2451fc368ec0472cc47bfddc47f6a1684d648e02bc070f2c85b275",
+      "format": "tar.gz",
+      "path": "google-cloud-sdk/bin/git-credential-gcloud.sh",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-583.0.0-linux-x86_64.tar.gz"
+        },
+        {
+          "url": "https://storage.googleapis.com/cloud-sdk-release/google-cloud-cli-583.0.0-linux-x86_64.tar.gz"
+        }
+      ]
+    },
+    "macos-aarch64": {
+      "size": 52346298,
+      "hash": "blake3",
+      "digest": "860cf8eb23f73eb8daa62be18f3e8267f9728dc61d589ba95f722446179eae19",
+      "format": "tar.gz",
+      "path": "google-cloud-sdk/bin/git-credential-gcloud.sh",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-583.0.0-darwin-arm.tar.gz"
+        },
+        {
+          "url": "https://storage.googleapis.com/cloud-sdk-release/google-cloud-cli-583.0.0-darwin-arm.tar.gz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 52441930,
+      "hash": "blake3",
+      "digest": "2914530ab3f6fb02a12ceafa851bfaaa3cd3dcdb2dd30666dcd4c002a932ddba",
+      "format": "tar.gz",
+      "path": "google-cloud-sdk/bin/git-credential-gcloud.sh",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-583.0.0-darwin-x86_64.tar.gz"
+        },
+        {
+          "url": "https://storage.googleapis.com/cloud-sdk-release/google-cloud-cli-583.0.0-darwin-x86_64.tar.gz"
+        }
+      ]
+    }
+  }
+}
