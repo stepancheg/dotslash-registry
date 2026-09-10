@@ -1,0 +1,83 @@
+#!/usr/bin/env dotslash
+
+// Kubernetes kubectl v1.37.0
+// https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0
+// https://kubernetes.io/releases/download/
+
+{
+  "name": "kubectl",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 31874350,
+      "hash": "blake3",
+      "digest": "f0b0a2f4cdcb0bcc6e3346979783eb4b24c061b58bc63e96ae666407be8ddad5",
+      "format": "tar.gz",
+      "path": "kubernetes/client/bin/kubectl",
+      "providers": [
+        {
+          "url": "https://dl.k8s.io/release/v1.37.0/kubernetes-client-linux-arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 36104933,
+      "hash": "blake3",
+      "digest": "c4b81361548b66ec9896148f2f5b4b42ea0550cc13349552c58da109778be40c",
+      "format": "tar.gz",
+      "path": "kubernetes/client/bin/kubectl",
+      "providers": [
+        {
+          "url": "https://dl.k8s.io/release/v1.37.0/kubernetes-client-linux-amd64.tar.gz"
+        }
+      ]
+    },
+    "macos-aarch64": {
+      "size": 33470286,
+      "hash": "blake3",
+      "digest": "d6fc22268ea8a13e1f9ae71b9af675c6b2b423308f1233b203655042545b4215",
+      "format": "tar.gz",
+      "path": "kubernetes/client/bin/kubectl",
+      "providers": [
+        {
+          "url": "https://dl.k8s.io/release/v1.37.0/kubernetes-client-darwin-arm64.tar.gz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 36759707,
+      "hash": "blake3",
+      "digest": "70e7f5a62685672603a2161b89b7648e9e8b92dbe3f5d9868af634328aadf8dd",
+      "format": "tar.gz",
+      "path": "kubernetes/client/bin/kubectl",
+      "providers": [
+        {
+          "url": "https://dl.k8s.io/release/v1.37.0/kubernetes-client-darwin-amd64.tar.gz"
+        }
+      ]
+    },
+    "windows-aarch64": {
+      "size": 32123026,
+      "hash": "blake3",
+      "digest": "92f6dd5452c9bed435776f73a7243cce2ac417cf5e4682cc0e2e94e482db9997",
+      "format": "tar.gz",
+      "path": "kubernetes/client/bin/kubectl.exe",
+      "providers": [
+        {
+          "url": "https://dl.k8s.io/release/v1.37.0/kubernetes-client-windows-arm64.tar.gz"
+        }
+      ]
+    },
+    "windows-x86_64": {
+      "size": 36997017,
+      "hash": "blake3",
+      "digest": "2aa81083ad6f46f6e57c0830974c51dd675fb95d0a92c50f221fd22f768f0d74",
+      "format": "tar.gz",
+      "path": "kubernetes/client/bin/kubectl.exe",
+      "providers": [
+        {
+          "url": "https://dl.k8s.io/release/v1.37.0/kubernetes-client-windows-amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}
