@@ -1,0 +1,118 @@
+#!/usr/bin/env dotslash
+
+// Buildkite CLI v3.56.0
+// https://github.com/buildkite/cli/releases/tag/v3.56.0
+
+{
+  "name": "bk",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 8048136,
+      "hash": "blake3",
+      "digest": "fe83d4877c0b0cd321097ae5949809483c69b5ca033d330df20066fe57445ce2",
+      "format": "tar.gz",
+      "path": "bk_3.56.0_linux_arm64/bk",
+      "providers": [
+        {
+          "url": "https://github.com/buildkite/cli/releases/download/v3.56.0/bk_3.56.0_linux_arm64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "buildkite/cli",
+          "tag": "v3.56.0",
+          "name": "bk_3.56.0_linux_arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 8858489,
+      "hash": "blake3",
+      "digest": "9daab5605a61c8130c87d81e8be24271aa9d5b958c1e0c074d15eb897071d170",
+      "format": "tar.gz",
+      "path": "bk_3.56.0_linux_amd64/bk",
+      "providers": [
+        {
+          "url": "https://github.com/buildkite/cli/releases/download/v3.56.0/bk_3.56.0_linux_amd64.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "buildkite/cli",
+          "tag": "v3.56.0",
+          "name": "bk_3.56.0_linux_amd64.tar.gz"
+        }
+      ]
+    },
+    "macos-aarch64": {
+      "size": 8257679,
+      "hash": "blake3",
+      "digest": "abcaecadf0492b64027555b066983b5d639fb16ea734906d5980f7b8f5daa7eb",
+      "format": "zip",
+      "path": "bk_3.56.0_macOS_arm64/bk",
+      "providers": [
+        {
+          "url": "https://github.com/buildkite/cli/releases/download/v3.56.0/bk_3.56.0_macOS_arm64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "buildkite/cli",
+          "tag": "v3.56.0",
+          "name": "bk_3.56.0_macOS_arm64.zip"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 8878197,
+      "hash": "blake3",
+      "digest": "1cfd911d3af61c396089386c8f580416c9be32f9c6d2e48e69339e0b43cef663",
+      "format": "zip",
+      "path": "bk_3.56.0_macOS_amd64/bk",
+      "providers": [
+        {
+          "url": "https://github.com/buildkite/cli/releases/download/v3.56.0/bk_3.56.0_macOS_amd64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "buildkite/cli",
+          "tag": "v3.56.0",
+          "name": "bk_3.56.0_macOS_amd64.zip"
+        }
+      ]
+    },
+    "windows-aarch64": {
+      "size": 8047181,
+      "hash": "blake3",
+      "digest": "abe7de91bd70fd6f0fd564863b4d7929d36712ee717635e218323a2c1217786a",
+      "format": "zip",
+      "path": "bk.exe",
+      "providers": [
+        {
+          "url": "https://github.com/buildkite/cli/releases/download/v3.56.0/bk_3.56.0_windows_arm64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "buildkite/cli",
+          "tag": "v3.56.0",
+          "name": "bk_3.56.0_windows_arm64.zip"
+        }
+      ]
+    },
+    "windows-x86_64": {
+      "size": 8986219,
+      "hash": "blake3",
+      "digest": "8edbc059cd516b6a277879d9542d8d31629e84d7130a83c5338e4acaf2fc7d84",
+      "format": "zip",
+      "path": "bk.exe",
+      "providers": [
+        {
+          "url": "https://github.com/buildkite/cli/releases/download/v3.56.0/bk_3.56.0_windows_amd64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "buildkite/cli",
+          "tag": "v3.56.0",
+          "name": "bk_3.56.0_windows_amd64.zip"
+        }
+      ]
+    }
+  }
+}
