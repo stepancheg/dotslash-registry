@@ -1,0 +1,119 @@
+#!/usr/bin/env dotslash
+
+// CPython 3.14.7 from python-build-standalone 20260901
+// https://github.com/astral-sh/python-build-standalone/releases/tag/20260901
+// linux-x86_64 uses the x86_64_v3 build.
+
+{
+  "name": "python3",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 95628137,
+      "hash": "blake3",
+      "digest": "7ee98d7186066e53a1ef80b0c930b4385f4c2ebc5a890c33ca1e16aa5b7ad86e",
+      "format": "tar.gz",
+      "path": "python/bin/python3",
+      "providers": [
+        {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.14.7%2B20260901-aarch64-unknown-linux-gnu-install_only.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "astral-sh/python-build-standalone",
+          "tag": "20260901",
+          "name": "cpython-3.14.7+20260901-aarch64-unknown-linux-gnu-install_only.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 126035294,
+      "hash": "blake3",
+      "digest": "db1bb93853a2d19b1f9260241df94d48894300378c0d405dfcbe7cea7dbc68dd",
+      "format": "tar.gz",
+      "path": "python/bin/python3",
+      "providers": [
+        {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.14.7%2B20260901-x86_64_v3-unknown-linux-gnu-install_only.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "astral-sh/python-build-standalone",
+          "tag": "20260901",
+          "name": "cpython-3.14.7+20260901-x86_64_v3-unknown-linux-gnu-install_only.tar.gz"
+        }
+      ]
+    },
+    "macos-aarch64": {
+      "size": 26654194,
+      "hash": "blake3",
+      "digest": "93c00e1835aa1def0a10b67fdcdf5ce7da88002498b841f171e6d29dad0d42a6",
+      "format": "tar.gz",
+      "path": "python/bin/python3",
+      "providers": [
+        {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.14.7%2B20260901-aarch64-apple-darwin-install_only.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "astral-sh/python-build-standalone",
+          "tag": "20260901",
+          "name": "cpython-3.14.7+20260901-aarch64-apple-darwin-install_only.tar.gz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 26745298,
+      "hash": "blake3",
+      "digest": "8d5b5b64c83740169d277353a8707220800e4ab376133746533e82d3afbb635c",
+      "format": "tar.gz",
+      "path": "python/bin/python3",
+      "providers": [
+        {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.14.7%2B20260901-x86_64-apple-darwin-install_only.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "astral-sh/python-build-standalone",
+          "tag": "20260901",
+          "name": "cpython-3.14.7+20260901-x86_64-apple-darwin-install_only.tar.gz"
+        }
+      ]
+    },
+    "windows-aarch64": {
+      "size": 46419298,
+      "hash": "blake3",
+      "digest": "858bcf38790986777a038e5eae49ad22351bde9680bacd82f279b9bd28c033be",
+      "format": "tar.gz",
+      "path": "python/python.exe",
+      "providers": [
+        {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.14.7%2B20260901-aarch64-pc-windows-msvc-install_only.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "astral-sh/python-build-standalone",
+          "tag": "20260901",
+          "name": "cpython-3.14.7+20260901-aarch64-pc-windows-msvc-install_only.tar.gz"
+        }
+      ]
+    },
+    "windows-x86_64": {
+      "size": 49509752,
+      "hash": "blake3",
+      "digest": "ed3017b732629f69c012a907bcd7a5a57af4da7866ae689ee2bb000ff57d630f",
+      "format": "tar.gz",
+      "path": "python/python.exe",
+      "providers": [
+        {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.14.7%2B20260901-x86_64-pc-windows-msvc-install_only.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "astral-sh/python-build-standalone",
+          "tag": "20260901",
+          "name": "cpython-3.14.7+20260901-x86_64-pc-windows-msvc-install_only.tar.gz"
+        }
+      ]
+    }
+  }
+}
