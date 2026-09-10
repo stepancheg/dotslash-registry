@@ -1,0 +1,72 @@
+name: Test binaries
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: ${{ matrix.platform }}
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            platform: linux-x86_64
+            dotslash: dotslash-linux-musl.x86_64.tar.gz
+          - os: ubuntu-24.04-arm
+            platform: linux-aarch64
+            dotslash: dotslash-linux-musl.aarch64.tar.gz
+          - os: macos-latest
+            platform: macos-aarch64
+            dotslash: dotslash-macos-arm64.tar.gz
+          - os: windows-latest
+            platform: windows-x86_64
+            dotslash: dotslash-windows.tar.gz
+    env:
+      DOTSLASH_PLATFORM: ${{ matrix.platform }}
+      BASE_SHA: ${{ github.event.pull_request.base.sha }}
+      HEAD_SHA: ${{ github.sha }}
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install DotSlash
+        env:
+          DOTSLASH_ARCHIVE: ${{ matrix.dotslash }}
+        run: |
+          set -euo pipefail
+          if command -v cygpath >/dev/null 2>&1; then
+            tmp="$(cygpath -u "${RUNNER_TEMP}")"
+            bin="${tmp}/dotslash-bin"
+            path_entry="$(cygpath -w "${bin}")"
+          else
+            tmp="${RUNNER_TEMP}"
+            bin="${tmp}/dotslash-bin"
+            path_entry="${bin}"
+          fi
+          mkdir -p "${bin}"
+          curl -fsSL -o "${tmp}/dotslash.tar.gz" \
+            "https://github.com/facebook/dotslash/releases/download/v0.5.9/${DOTSLASH_ARCHIVE}"
+          tar -xzf "${tmp}/dotslash.tar.gz" -C "${bin}"
+          chmod +x "${bin}/dotslash" "${bin}/dotslash.exe" 2>/dev/null || true
+          echo "${path_entry}" >> "${GITHUB_PATH}"
+          echo "DOTSLASH_BIN=${bin}" >> "${GITHUB_ENV}"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Test changed binaries
+        run: |
+          export PATH="${DOTSLASH_BIN}:${PATH}"
+          python .github/scripts/ci.py
