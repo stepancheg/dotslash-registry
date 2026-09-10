@@ -2,6 +2,11 @@
 
 // Sapling SCM 0.2.20260811-150444+8fb02b32
 // https://github.com/facebook/sapling/releases/tag/0.2.20260811-150444%2B8fb02b32
+//
+// No macOS: the only published macOS artifacts are Homebrew bottles.
+// Those binaries link against @@HOMEBREW_PREFIX@@ python/openssl, which
+// brew rewrites on install. DotSlash only extracts the archive, so sl
+// fails with dyld Symbol not found: _PyBool_Type.
 
 {
   "name": "sl",
@@ -39,24 +44,6 @@
           "repo": "facebook/sapling",
           "tag": "0.2.20260811-150444+8fb02b32",
           "name": "sapling-0.2.20260811-150444+8fb02b32-linux-x64.tar.xz"
-        }
-      ]
-    },
-    "macos-aarch64": {
-      "size": 39670763,
-      "hash": "blake3",
-      "digest": "4a525957f8b7f4237aabff2be19c310a4b21b4c75c73e9b944b23e7c6d951ef4",
-      "format": "tar.gz",
-      "path": "sapling/0.2.20260811-150444+8fb02b32/bin/sl",
-      "providers": [
-        {
-          "url": "https://github.com/facebook/sapling/releases/download/0.2.20260811-150444%2B8fb02b32/sapling-0.2.20260811-150444%2B8fb02b32.arm64_sequoia.bottle.tar.gz"
-        },
-        {
-          "type": "github-release",
-          "repo": "facebook/sapling",
-          "tag": "0.2.20260811-150444+8fb02b32",
-          "name": "sapling-0.2.20260811-150444+8fb02b32.arm64_sequoia.bottle.tar.gz"
         }
       ]
     },
