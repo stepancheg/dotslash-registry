@@ -1,0 +1,82 @@
+#!/usr/bin/env dotslash
+
+// Sapling SCM 0.2.20260811-150444+8fb02b32
+// https://github.com/facebook/sapling/releases/tag/0.2.20260811-150444%2B8fb02b32
+
+{
+  "name": "sl",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 34918652,
+      "hash": "blake3",
+      "digest": "99ea6a06af35c44fbadb20c679058c77346b24aa4aeb4e224e7d336b92ff6f9b",
+      "format": "tar.xz",
+      "path": "sl",
+      "providers": [
+        {
+          "url": "https://github.com/facebook/sapling/releases/download/0.2.20260811-150444%2B8fb02b32/sapling-0.2.20260811-150444%2B8fb02b32-linux-arm64.tar.xz"
+        },
+        {
+          "type": "github-release",
+          "repo": "facebook/sapling",
+          "tag": "0.2.20260811-150444+8fb02b32",
+          "name": "sapling-0.2.20260811-150444+8fb02b32-linux-arm64.tar.xz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 36250500,
+      "hash": "blake3",
+      "digest": "1bc27c07a7bc302ba8cd6c5cedd118cccb2e8be13bc6efde1314e2ae03187d68",
+      "format": "tar.xz",
+      "path": "sl",
+      "providers": [
+        {
+          "url": "https://github.com/facebook/sapling/releases/download/0.2.20260811-150444%2B8fb02b32/sapling-0.2.20260811-150444%2B8fb02b32-linux-x64.tar.xz"
+        },
+        {
+          "type": "github-release",
+          "repo": "facebook/sapling",
+          "tag": "0.2.20260811-150444+8fb02b32",
+          "name": "sapling-0.2.20260811-150444+8fb02b32-linux-x64.tar.xz"
+        }
+      ]
+    },
+    "macos-aarch64": {
+      "size": 39670763,
+      "hash": "blake3",
+      "digest": "4a525957f8b7f4237aabff2be19c310a4b21b4c75c73e9b944b23e7c6d951ef4",
+      "format": "tar.gz",
+      "path": "sapling/0.2.20260811-150444+8fb02b32/bin/sl",
+      "providers": [
+        {
+          "url": "https://github.com/facebook/sapling/releases/download/0.2.20260811-150444%2B8fb02b32/sapling-0.2.20260811-150444%2B8fb02b32.arm64_sequoia.bottle.tar.gz"
+        },
+        {
+          "type": "github-release",
+          "repo": "facebook/sapling",
+          "tag": "0.2.20260811-150444+8fb02b32",
+          "name": "sapling-0.2.20260811-150444+8fb02b32.arm64_sequoia.bottle.tar.gz"
+        }
+      ]
+    },
+    "windows-x86_64": {
+      "size": 56097396,
+      "hash": "blake3",
+      "digest": "9a504ef6094fce4462ee786f2357a80f78a9fbc4de6918c1b35ab83dc524fb45",
+      "format": "zip",
+      "path": "Sapling/sl.exe",
+      "providers": [
+        {
+          "url": "https://github.com/facebook/sapling/releases/download/0.2.20260811-150444%2B8fb02b32/sapling-0.2.20260811-150444%2B8fb02b32-windows-x64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "facebook/sapling",
+          "tag": "0.2.20260811-150444+8fb02b32",
+          "name": "sapling-0.2.20260811-150444+8fb02b32-windows-x64.zip"
+        }
+      ]
+    }
+  }
+}
