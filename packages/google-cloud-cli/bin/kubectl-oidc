@@ -1,0 +1,71 @@
+#!/usr/bin/env dotslash
+
+// Google Cloud CLI extra component kubectl-oidc
+// Not in the base SDK archive; from the rapid component channel.
+// https://cloud.google.com/sdk/docs/components
+
+{
+  "name": "kubectl-oidc",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 25653642,
+      "hash": "blake3",
+      "digest": "722ad2650c491f3d4338866e60b707cb72645a6ad7f84348c01aa851c947c601",
+      "format": "tar.gz",
+      "path": "bin/kubectl-oidc",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-kubectl-oidc-linux-arm-20260130130055.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 28262695,
+      "hash": "blake3",
+      "digest": "ebe9bd46e4a5d16d75303b22736ef28e95af27e2ecfdec5f4b07d061086ea42a",
+      "format": "tar.gz",
+      "path": "bin/kubectl-oidc",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-kubectl-oidc-linux-x86_64-20260130130055.tar.gz"
+        }
+      ]
+    },
+    "macos-aarch64": {
+      "size": 29263476,
+      "hash": "blake3",
+      "digest": "ba9767df5cf9627e78ae8dc65d3c91df09b4c53c52bbe66b2f0f04345e4bf273",
+      "format": "tar.gz",
+      "path": "bin/kubectl-oidc",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-kubectl-oidc-darwin-arm-20260130130055.tar.gz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 32060952,
+      "hash": "blake3",
+      "digest": "567e2052f7ca30280fbf322d9b7ef24ec8e4450e3d5fc9e9844a1a2b68a54f37",
+      "format": "tar.gz",
+      "path": "bin/kubectl-oidc",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-kubectl-oidc-darwin-x86_64-20260130130055.tar.gz"
+        }
+      ]
+    },
+    "windows-x86_64": {
+      "size": 28645446,
+      "hash": "blake3",
+      "digest": "ebc731169c9f1efe13759e88280b8fa265f8e9f378e83434e379a88ec84364a8",
+      "format": "tar.gz",
+      "path": "bin/kubectl-oidc.exe",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-kubectl-oidc-windows-x86_64-20260130130055.tar.gz"
+        }
+      ]
+    }
+  }
+}

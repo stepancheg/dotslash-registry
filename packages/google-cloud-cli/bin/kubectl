@@ -1,0 +1,71 @@
+#!/usr/bin/env dotslash
+
+// Google Cloud CLI extra component kubectl
+// Not in the base SDK archive; from the rapid component channel.
+// https://cloud.google.com/sdk/docs/components
+
+{
+  "name": "kubectl",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 109223696,
+      "hash": "blake3",
+      "digest": "10c47adc8998f7f48c967e0942cee0489b8dcd32efb0e41006372f76710bc2b1",
+      "format": "tar.gz",
+      "path": "bin/kubectl",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-kubectl-linux-arm-20260831161632.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 122990630,
+      "hash": "blake3",
+      "digest": "9d4ac688a3fcfe382fb196392a30a3f3541b94fe353a1617942ce53c073b3a97",
+      "format": "tar.gz",
+      "path": "bin/kubectl",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-kubectl-linux-x86_64-20260831161632.tar.gz"
+        }
+      ]
+    },
+    "macos-aarch64": {
+      "size": 114779325,
+      "hash": "blake3",
+      "digest": "b4a30e21ef02c5eee4819191758c94700db25c1d29984ffa8085c0fe42bfb3ca",
+      "format": "tar.gz",
+      "path": "bin/kubectl",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-kubectl-darwin-arm-20260831161632.tar.gz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 125394742,
+      "hash": "blake3",
+      "digest": "988d8c96ff506780dcab7f949c172c58cbe7f3dd2011be72b565376cc0837aa4",
+      "format": "tar.gz",
+      "path": "bin/kubectl",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-kubectl-darwin-x86_64-20260831161632.tar.gz"
+        }
+      ]
+    },
+    "windows-x86_64": {
+      "size": 126249555,
+      "hash": "blake3",
+      "digest": "d3fd264071b57fb21dee2b950310ca161e733db24021dd01a687041dd42f4567",
+      "format": "tar.gz",
+      "path": "bin/kubectl.exe",
+      "providers": [
+        {
+          "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-kubectl-windows-x86_64-20260831161632.tar.gz"
+        }
+      ]
+    }
+  }
+}
