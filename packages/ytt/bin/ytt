@@ -1,0 +1,112 @@
+#!/usr/bin/env dotslash
+
+// ytt v0.55.3
+// https://github.com/carvel-dev/ytt/releases/tag/v0.55.3
+
+{
+  "name": "ytt",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 16770965,
+      "hash": "blake3",
+      "digest": "a3000f0cfb2ee2a75273f73f9abaf4b557ebcbc4391220e061470f37f2cc63b5",
+      "path": "ytt",
+      "providers": [
+        {
+          "url": "https://github.com/carvel-dev/ytt/releases/download/v0.55.3/ytt-linux-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "carvel-dev/ytt",
+          "tag": "v0.55.3",
+          "name": "ytt-linux-arm64"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 17966414,
+      "hash": "blake3",
+      "digest": "30e87563edc442c9a83941f857997f3acec9e9adbcc1ec17e8beb57218ab84a1",
+      "path": "ytt",
+      "providers": [
+        {
+          "url": "https://github.com/carvel-dev/ytt/releases/download/v0.55.3/ytt-linux-amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "carvel-dev/ytt",
+          "tag": "v0.55.3",
+          "name": "ytt-linux-amd64"
+        }
+      ]
+    },
+    "macos-aarch64": {
+      "size": 17303474,
+      "hash": "blake3",
+      "digest": "475584c00db2b21ebcd96031ae7c18d1d604df1a379b60f668bcc5156faacae0",
+      "path": "ytt",
+      "providers": [
+        {
+          "url": "https://github.com/carvel-dev/ytt/releases/download/v0.55.3/ytt-darwin-arm64"
+        },
+        {
+          "type": "github-release",
+          "repo": "carvel-dev/ytt",
+          "tag": "v0.55.3",
+          "name": "ytt-darwin-arm64"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 18396224,
+      "hash": "blake3",
+      "digest": "4ca13ad9dda39b56ba22f1cad3df28f33f84464088edebfc9301a3de340442f6",
+      "path": "ytt",
+      "providers": [
+        {
+          "url": "https://github.com/carvel-dev/ytt/releases/download/v0.55.3/ytt-darwin-amd64"
+        },
+        {
+          "type": "github-release",
+          "repo": "carvel-dev/ytt",
+          "tag": "v0.55.3",
+          "name": "ytt-darwin-amd64"
+        }
+      ]
+    },
+    "windows-aarch64": {
+      "size": 16794624,
+      "hash": "blake3",
+      "digest": "c106455b1bd6b6523a2b7dcbec64934b97a524d08e9f8f7bd4c1cedffac099b0",
+      "path": "ytt.exe",
+      "providers": [
+        {
+          "url": "https://github.com/carvel-dev/ytt/releases/download/v0.55.3/ytt-windows-arm64.exe"
+        },
+        {
+          "type": "github-release",
+          "repo": "carvel-dev/ytt",
+          "tag": "v0.55.3",
+          "name": "ytt-windows-arm64.exe"
+        }
+      ]
+    },
+    "windows-x86_64": {
+      "size": 18256384,
+      "hash": "blake3",
+      "digest": "3252bfde1b54a8757e805ad48b660afb797a914ec23679f607ef691f6c6eed6b",
+      "path": "ytt.exe",
+      "providers": [
+        {
+          "url": "https://github.com/carvel-dev/ytt/releases/download/v0.55.3/ytt-windows-amd64.exe"
+        },
+        {
+          "type": "github-release",
+          "repo": "carvel-dev/ytt",
+          "tag": "v0.55.3",
+          "name": "ytt-windows-amd64.exe"
+        }
+      ]
+    }
+  }
+}
