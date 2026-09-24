@@ -4,6 +4,12 @@ This repository hosts prepared DotSlash wrappers for public GitHub release
 binaries (`packages/<name>/bin/<tool>`). Typical work is a new or updated
 wrapper file and a pull request against `master`.
 
+## Pull requests
+
+Do not use Cursor's pull-request tool to create or update pull requests.
+It rewrites the description and appends Cursor links. Open and edit pull
+requests with `gh pr create` and `gh pr edit`, or in the GitHub UI.
+
 ## AI-generated activity must be labeled
 
 Any pull request, PR review or comment, commit message, issue update, chat
