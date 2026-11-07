@@ -1,0 +1,118 @@
+#!/usr/bin/env dotslash
+
+// spacectl v1.29.1
+// https://github.com/spacelift-io/spacectl/releases/tag/v1.29.1
+
+{
+  "name": "spacectl",
+  "platforms": {
+    "linux-aarch64": {
+      "size": 6697032,
+      "hash": "blake3",
+      "digest": "1721791b654a7da03d6599a683110950261ebe2ec4a985b640547393f44ab16a",
+      "format": "zip",
+      "path": "spacectl",
+      "providers": [
+        {
+          "url": "https://github.com/spacelift-io/spacectl/releases/download/v1.29.1/spacectl_1.29.1_linux_arm64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "spacelift-io/spacectl",
+          "tag": "v1.29.1",
+          "name": "spacectl_1.29.1_linux_arm64.zip"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 7380761,
+      "hash": "blake3",
+      "digest": "28263b63f9e257f1a69b39737489761298a031db627ec6123ffa86bd725963e3",
+      "format": "zip",
+      "path": "spacectl",
+      "providers": [
+        {
+          "url": "https://github.com/spacelift-io/spacectl/releases/download/v1.29.1/spacectl_1.29.1_linux_amd64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "spacelift-io/spacectl",
+          "tag": "v1.29.1",
+          "name": "spacectl_1.29.1_linux_amd64.zip"
+        }
+      ]
+    },
+    "macos-aarch64": {
+      "size": 6958150,
+      "hash": "blake3",
+      "digest": "86543a9b3589f0082e45f5af0a651a004e6348fa4bd52a94995e9ed5253fd351",
+      "format": "zip",
+      "path": "spacectl",
+      "providers": [
+        {
+          "url": "https://github.com/spacelift-io/spacectl/releases/download/v1.29.1/spacectl_1.29.1_darwin_arm64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "spacelift-io/spacectl",
+          "tag": "v1.29.1",
+          "name": "spacectl_1.29.1_darwin_arm64.zip"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 7509447,
+      "hash": "blake3",
+      "digest": "e9ffe52d01be3ab5d8c5a41891db7b48112a8ea78cf902bb8b4cf45399c00ddf",
+      "format": "zip",
+      "path": "spacectl",
+      "providers": [
+        {
+          "url": "https://github.com/spacelift-io/spacectl/releases/download/v1.29.1/spacectl_1.29.1_darwin_amd64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "spacelift-io/spacectl",
+          "tag": "v1.29.1",
+          "name": "spacectl_1.29.1_darwin_amd64.zip"
+        }
+      ]
+    },
+    "windows-aarch64": {
+      "size": 6802593,
+      "hash": "blake3",
+      "digest": "fb0371814a24b467dbaee1165019e8adfad98ff64d3f8174d0055b6a2c08c55c",
+      "format": "zip",
+      "path": "spacectl.exe",
+      "providers": [
+        {
+          "url": "https://github.com/spacelift-io/spacectl/releases/download/v1.29.1/spacectl_1.29.1_windows_arm64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "spacelift-io/spacectl",
+          "tag": "v1.29.1",
+          "name": "spacectl_1.29.1_windows_arm64.zip"
+        }
+      ]
+    },
+    "windows-x86_64": {
+      "size": 7596223,
+      "hash": "blake3",
+      "digest": "333f0bcc3dfb29d71e9c8415504dcaf55a385a0134b02c1c612fda1517b21184",
+      "format": "zip",
+      "path": "spacectl.exe",
+      "providers": [
+        {
+          "url": "https://github.com/spacelift-io/spacectl/releases/download/v1.29.1/spacectl_1.29.1_windows_amd64.zip"
+        },
+        {
+          "type": "github-release",
+          "repo": "spacelift-io/spacectl",
+          "tag": "v1.29.1",
+          "name": "spacectl_1.29.1_windows_amd64.zip"
+        }
+      ]
+    }
+  }
+}
